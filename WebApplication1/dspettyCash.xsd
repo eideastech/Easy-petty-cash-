@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dspettyCash" targetNamespace="http://tempuri.org/dspettyCash.xsd" xmlns:mstns="http://tempuri.org/dspettyCash.xsd" xmlns="http://tempuri.org/dspettyCash.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Web.config" AppSettingsPropertyName="pettycash_msConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="pettycash_msConnectionString (Web.config)" ParameterPrefix="@" PropertyReference="AppConfig.System.Configuration.ConfigurationManager.0.ConnectionStrings.pettycash_msConnectionString.ConnectionString" Provider="MySql.Data.MySqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DataTable1TableAdapter" GeneratorDataComponentClassName="DataTable1TableAdapter" Name="DataTable1" UserDataComponentName="DataTable1TableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="pettycash_msConnectionString (Web.config)" DbObjectName="" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT 
+le.Id_Ledger_Entry,
+le.Id_Petty_Cash_Voucher,
+pcv.Business_Purpose,
+le.Id_Petty_Cash_Book,
+pcb.Petty_Cash_Book_Name,
+pcb.Petty_Cash_Book_Code,
+le.Id_Petty_Cash_Category,
+pcc.Petty_Cash_Category_Name,
+pcc.Petty_Cash_Category_Code,
+le.Id_Ledger_Account,
+le.Balance_Carried_Forward,
+le.Debit_Amount,
+le.Credit_Amount,
+le.Post_Payment,
+if(le.Post_Payment=0, 'Post-payment','Pre-payment') AS Payment_Type,
+le.Created_Date,
+DATE_FORMAT(le.Created_Date,'%m-%d-%Y') AS T_Date,
+le.Created_User,
+le.Edited_Date,
+le.Edited_User
+FROM core_ledger_entry AS le
+INNER JOIN core_petty_cash_payment_voucher AS pcv ON le.Id_Petty_Cash_Voucher=pcv.Id_Petty_Cash_Voucher
+INNER JOIN core_petty_cash_book AS pcb ON le.Id_Petty_Cash_Book=pcb.Id_Petty_Cash_Book
+INNER JOIN core_petty_cash_category AS pcc ON le.Id_Petty_Cash_Category=pcc.Id_Petty_Cash_Category</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="Id_Ledger_Entry" DataSetColumn="Id_Ledger_Entry" />
+              <Mapping SourceColumn="Id_Petty_Cash_Voucher" DataSetColumn="Id_Petty_Cash_Voucher" />
+              <Mapping SourceColumn="Id_Petty_Cash_Book" DataSetColumn="Id_Petty_Cash_Book" />
+              <Mapping SourceColumn="Petty_Cash_Book_Name" DataSetColumn="Petty_Cash_Book_Name" />
+              <Mapping SourceColumn="Petty_Cash_Book_Code" DataSetColumn="Petty_Cash_Book_Code" />
+              <Mapping SourceColumn="Id_Petty_Cash_Category" DataSetColumn="Id_Petty_Cash_Category" />
+              <Mapping SourceColumn="Petty_Cash_Category_Name" DataSetColumn="Petty_Cash_Category_Name" />
+              <Mapping SourceColumn="Petty_Cash_Category_Code" DataSetColumn="Petty_Cash_Category_Code" />
+              <Mapping SourceColumn="Id_Ledger_Account" DataSetColumn="Id_Ledger_Account" />
+              <Mapping SourceColumn="Balance_Carried_Forward" DataSetColumn="Balance_Carried_Forward" />
+              <Mapping SourceColumn="Debit_Amount" DataSetColumn="Debit_Amount" />
+              <Mapping SourceColumn="Credit_Amount" DataSetColumn="Credit_Amount" />
+              <Mapping SourceColumn="Post_Payment" DataSetColumn="Post_Payment" />
+              <Mapping SourceColumn="Created_Date" DataSetColumn="Created_Date" />
+              <Mapping SourceColumn="Created_User" DataSetColumn="Created_User" />
+              <Mapping SourceColumn="Edited_Date" DataSetColumn="Edited_Date" />
+              <Mapping SourceColumn="Edited_User" DataSetColumn="Edited_User" />
+              <Mapping SourceColumn="Business_Purpose" DataSetColumn="Business_Purpose" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dspettyCash" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dspettyCash" msprop:Generator_UserDSName="dspettyCash">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DataTable1" msprop:Generator_TableClassName="DataTable1DataTable" msprop:Generator_TableVarName="tableDataTable1" msprop:Generator_TablePropName="DataTable1" msprop:Generator_RowDeletingName="DataTable1RowDeleting" msprop:Generator_RowChangingName="DataTable1RowChanging" msprop:Generator_RowEvHandlerName="DataTable1RowChangeEventHandler" msprop:Generator_RowDeletedName="DataTable1RowDeleted" msprop:Generator_UserTableName="DataTable1" msprop:Generator_RowChangedName="DataTable1RowChanged" msprop:Generator_RowEvArgName="DataTable1RowChangeEvent" msprop:Generator_RowClassName="DataTable1Row">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id_Ledger_Entry" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnId_Ledger_Entry" msprop:Generator_ColumnPropNameInRow="Id_Ledger_Entry" msprop:Generator_ColumnPropNameInTable="Id_Ledger_EntryColumn" msprop:Generator_UserColumnName="Id_Ledger_Entry" type="xs:int" />
+              <xs:element name="Id_Petty_Cash_Voucher" msprop:Generator_ColumnVarNameInTable="columnId_Petty_Cash_Voucher" msprop:Generator_ColumnPropNameInRow="Id_Petty_Cash_Voucher" msprop:Generator_ColumnPropNameInTable="Id_Petty_Cash_VoucherColumn" msprop:Generator_UserColumnName="Id_Petty_Cash_Voucher" type="xs:int" />
+              <xs:element name="Id_Petty_Cash_Book" msprop:Generator_ColumnVarNameInTable="columnId_Petty_Cash_Book" msprop:Generator_ColumnPropNameInRow="Id_Petty_Cash_Book" msprop:Generator_ColumnPropNameInTable="Id_Petty_Cash_BookColumn" msprop:Generator_UserColumnName="Id_Petty_Cash_Book" type="xs:int" />
+              <xs:element name="Petty_Cash_Book_Name" msprop:Generator_ColumnVarNameInTable="columnPetty_Cash_Book_Name" msprop:Generator_ColumnPropNameInRow="Petty_Cash_Book_Name" msprop:Generator_ColumnPropNameInTable="Petty_Cash_Book_NameColumn" msprop:Generator_UserColumnName="Petty_Cash_Book_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Petty_Cash_Book_Code" msprop:Generator_ColumnVarNameInTable="columnPetty_Cash_Book_Code" msprop:Generator_ColumnPropNameInRow="Petty_Cash_Book_Code" msprop:Generator_ColumnPropNameInTable="Petty_Cash_Book_CodeColumn" msprop:Generator_UserColumnName="Petty_Cash_Book_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Petty_Cash_Category" msprop:Generator_ColumnVarNameInTable="columnId_Petty_Cash_Category" msprop:Generator_ColumnPropNameInRow="Id_Petty_Cash_Category" msprop:Generator_ColumnPropNameInTable="Id_Petty_Cash_CategoryColumn" msprop:Generator_UserColumnName="Id_Petty_Cash_Category" type="xs:int" />
+              <xs:element name="Petty_Cash_Category_Name" msprop:Generator_ColumnVarNameInTable="columnPetty_Cash_Category_Name" msprop:Generator_ColumnPropNameInRow="Petty_Cash_Category_Name" msprop:Generator_ColumnPropNameInTable="Petty_Cash_Category_NameColumn" msprop:Generator_UserColumnName="Petty_Cash_Category_Name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Petty_Cash_Category_Code" msprop:Generator_ColumnVarNameInTable="columnPetty_Cash_Category_Code" msprop:Generator_ColumnPropNameInRow="Petty_Cash_Category_Code" msprop:Generator_ColumnPropNameInTable="Petty_Cash_Category_CodeColumn" msprop:Generator_UserColumnName="Petty_Cash_Category_Code" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="45" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Id_Ledger_Account" msprop:Generator_ColumnVarNameInTable="columnId_Ledger_Account" msprop:Generator_ColumnPropNameInRow="Id_Ledger_Account" msprop:Generator_ColumnPropNameInTable="Id_Ledger_AccountColumn" msprop:Generator_UserColumnName="Id_Ledger_Account" type="xs:int" />
+              <xs:element name="Balance_Carried_Forward" msprop:Generator_ColumnVarNameInTable="columnBalance_Carried_Forward" msprop:Generator_ColumnPropNameInRow="Balance_Carried_Forward" msprop:Generator_ColumnPropNameInTable="Balance_Carried_ForwardColumn" msprop:Generator_UserColumnName="Balance_Carried_Forward" type="xs:double" />
+              <xs:element name="Debit_Amount" msprop:Generator_ColumnVarNameInTable="columnDebit_Amount" msprop:Generator_ColumnPropNameInRow="Debit_Amount" msprop:Generator_ColumnPropNameInTable="Debit_AmountColumn" msprop:Generator_UserColumnName="Debit_Amount" type="xs:double" minOccurs="0" />
+              <xs:element name="Credit_Amount" msprop:Generator_ColumnVarNameInTable="columnCredit_Amount" msprop:Generator_ColumnPropNameInRow="Credit_Amount" msprop:Generator_ColumnPropNameInTable="Credit_AmountColumn" msprop:Generator_UserColumnName="Credit_Amount" type="xs:double" minOccurs="0" />
+              <xs:element name="Post_Payment" msprop:Generator_ColumnVarNameInTable="columnPost_Payment" msprop:Generator_ColumnPropNameInRow="Post_Payment" msprop:Generator_ColumnPropNameInTable="Post_PaymentColumn" msprop:Generator_UserColumnName="Post_Payment" type="xs:int" />
+              <xs:element name="Created_Date" msprop:Generator_ColumnVarNameInTable="columnCreated_Date" msprop:Generator_ColumnPropNameInRow="Created_Date" msprop:Generator_ColumnPropNameInTable="Created_DateColumn" msprop:Generator_UserColumnName="Created_Date" type="xs:dateTime" />
+              <xs:element name="Created_User" msprop:Generator_ColumnVarNameInTable="columnCreated_User" msprop:Generator_ColumnPropNameInRow="Created_User" msprop:Generator_ColumnPropNameInTable="Created_UserColumn" msprop:Generator_UserColumnName="Created_User" type="xs:int" />
+              <xs:element name="Edited_Date" msprop:Generator_ColumnVarNameInTable="columnEdited_Date" msprop:Generator_ColumnPropNameInRow="Edited_Date" msprop:Generator_ColumnPropNameInTable="Edited_DateColumn" msprop:Generator_UserColumnName="Edited_Date" type="xs:dateTime" />
+              <xs:element name="Edited_User" msprop:Generator_ColumnVarNameInTable="columnEdited_User" msprop:Generator_ColumnPropNameInRow="Edited_User" msprop:Generator_ColumnPropNameInTable="Edited_UserColumn" msprop:Generator_UserColumnName="Edited_User" type="xs:int" minOccurs="0" />
+              <xs:element name="Business_Purpose" msprop:Generator_ColumnVarNameInTable="columnBusiness_Purpose" msprop:Generator_ColumnPropNameInRow="Business_Purpose" msprop:Generator_ColumnPropNameInTable="Business_PurposeColumn" msprop:Generator_UserColumnName="Business_Purpose" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="21845" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:DataTable1" />
+      <xs:field xpath="mstns:Id_Ledger_Entry" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

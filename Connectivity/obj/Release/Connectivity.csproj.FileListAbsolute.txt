@@ -1,0 +1,15 @@
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\Connectivity\bin\Release\Connectivity.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\Connectivity\bin\Release\Connectivity.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\Connectivity\bin\Release\Connectivity.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\Connectivity\bin\Release\Connectivity.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\Connectivity\obj\Release\Connectivity.pdb
+F:\Project\Shane\Github Upload\WebApplication1\Connectivity\bin\Release\Connectivity.dll
+F:\Project\Shane\Github Upload\WebApplication1\Connectivity\bin\Release\Connectivity.pdb
+F:\Project\Shane\Github Upload\WebApplication1\Connectivity\obj\Release\Connectivity.csprojResolveAssemblyReference.cache
+F:\Project\Shane\Github Upload\WebApplication1\Connectivity\obj\Release\Connectivity.dll
+F:\Project\Shane\Github Upload\WebApplication1\Connectivity\obj\Release\Connectivity.pdb

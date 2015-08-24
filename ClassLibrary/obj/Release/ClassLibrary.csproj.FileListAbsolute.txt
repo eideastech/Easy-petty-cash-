@@ -1,0 +1,44 @@
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\System.Web.Http.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\Connectivity.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\Newtonsoft.Json.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\System.Web.Http.xml
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\Connectivity.pdb
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.dll
+C:\Users\Developer\Documents\Visual Studio 2013\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\Connectivity.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\System.Web.Http.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\Newtonsoft.Json.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\Connectivity.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.pdb
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\System.Web.Http.xml
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.dll
+C:\Users\Developer\Documents\New folder\Visual Studio 20133\Projects\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.pdb
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\ClassLibrary.pdb
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\Connectivity.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\Newtonsoft.Json.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\Connectivity.pdb
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS.pdb
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\bin\Release\DataProcess_PCMS_Objects.pdb
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.csprojResolveAssemblyReference.cache
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.dll
+F:\Project\Shane\Github Upload\WebApplication1\ClassLibrary\obj\Release\ClassLibrary.pdb
